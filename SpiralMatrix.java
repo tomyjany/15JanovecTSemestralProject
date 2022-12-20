@@ -81,6 +81,7 @@ public class SpiralMatrix {
                     System.out.println("Neplatny vstup");
                     System.out.println("Zadejte pocet sloupcu: ");
                     n=UI.sc.nextInt();
+                    System.out.println("");
                 }
                 UI.printA(makeArray(m,n));
             }
